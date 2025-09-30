@@ -1,0 +1,24 @@
+{
+  "name": "trabalho02_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback",
+    "seed": "npx knex seed:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.6.1",
+    "knex": "^3.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

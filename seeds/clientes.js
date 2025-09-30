@@ -1,6 +1,4 @@
-/**
- * @param { import("knex").Knex } knex
- */
+/** @type {import('knex').Knex.Seed} */
 exports.seed = async function(knex) {
   await knex('clientes').del();
   await knex('clientes').insert([
