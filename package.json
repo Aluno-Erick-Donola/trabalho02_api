@@ -1,7 +1,7 @@
 {
   "name": "trabalho02_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000t\u0000r\u0000a\u0000b\u0000a\u0000l\u0000h\u0000o\u00000\u00002\u0000_\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aluno-Erick-Donola/trabalho02_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aluno-Erick-Donola/trabalho02_api/issues"
+  },
+  "homepage": "https://github.com/Aluno-Erick-Donola/trabalho02_api#readme"
 }
